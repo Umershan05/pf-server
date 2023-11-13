@@ -1,0 +1,32 @@
+     mongodb
+     ----------------------
+     -it is used for large amount of data permently
+
+     1.different b/w sql and mongodb
+      
+      SQL                                                                      mongodb
+      ---------------------------------------------          ----------------------------------------------
+       -relational dbms                                           -document orented nosql db
+       -store in table with row and columns                       -Collection of json Document
+       -used fixed schema                                         -use dynamicschema
+       -used to optimise complex join and transaction             -optimised for Scalability and performance
+       -support rich set of Data types                            -limited set of data types
+        declerative query language
+        -ACID(atomicity,Consistancy,Isolation and                  -NoSQL based on CAP(Consistancy,Availablity,and partition tolerence)
+          Durability)property                                         property
+         -Uses Traditional bussines application                     -used in big data and real time web application
+                                                    
+                                                    
+   2. commands in mongodb
+      -show databases:display databases
+      -use dbname :switched to db
+      show collections:display collection   
+      -db.users.find():to get all document from collection 
+      -find(document):to get all document which staisfy the condition from a collection
+      -findOne(condition):get only single document which statisfy the condituion else return null  
+      -limi(count) :to limit the document while
+      -                                          
+                                                    
+                                                    
+                                                    
+
